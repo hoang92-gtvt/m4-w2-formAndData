@@ -31,7 +31,7 @@ public class AppInit  extends WebMvcConfigurerAdapter implements ApplicationCont
     public InternalResourceViewResolver internalResolver(){
         InternalResourceViewResolver resolver = new InternalResourceViewResolver();
 
-        resolver.setPrefix("/WEB_INF/views");
+        resolver.setPrefix("/WEB_INF/user");
         resolver.setSuffix(".jsp");
 
         return resolver;

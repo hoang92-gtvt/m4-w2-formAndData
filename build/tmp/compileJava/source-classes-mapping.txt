@@ -2,9 +2,21 @@ model/Employer.java
  model.Employer
 model/Customer.java
  model.Customer
-config/AppInit.java
- config.AppInit
-config/AppConfig.java
- config.AppConfig
 controller/EmployerController.java
  controller.EmployerController
+controller/UserController.java
+ controller.UserController
+service/user/ICheck.java
+ service.user.ICheck
+model/User.java
+ model.User
+service/user/UserService.java
+ service.user.UserService
+service/user/IUserService.java
+ service.user.IUserService
+config/AppConfig.java
+ config.AppConfig
+model/Login.java
+ model.Login
+config/AppInit.java
+ config.AppInit
